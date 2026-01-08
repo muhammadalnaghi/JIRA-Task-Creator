@@ -31,13 +31,19 @@ jira-task-creator/
 
 ## Steps to Upload to GitHub
 
-### 1. Create GitHub Repository
+### 1. Create GitHub Repository First! ⚠️ IMPORTANT
+
+**You MUST create the repository on GitHub BEFORE pushing!**
 
 1. Go to https://github.com/new
 2. Repository name: `jira-task-creator` (or your preferred name)
 3. Description: "A Python GUI application for creating Jira tasks and subtasks via REST API"
-4. Visibility: Choose Public or Private
-5. **DO NOT** initialize with README, .gitignore, or license (we already have them)
+4. Visibility: Choose **Public** or **Private**
+5. **⚠️ CRITICAL**: 
+   - **DO NOT** check "Add a README file"
+   - **DO NOT** check "Add .gitignore"
+   - **DO NOT** check "Choose a license"
+   - We already have all these files locally!
 6. Click "Create repository"
 
 ### 2. Connect Local Repository to GitHub
