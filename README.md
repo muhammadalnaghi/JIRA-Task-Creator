@@ -319,11 +319,12 @@ jira-task-creator/
 python jira_task_gui.py
 ```
 
-### Testing
+### Building EXE
 
-1. Create a test `tasks.txt` with sample tasks
-2. Use a test Jira project
-3. Verify tasks are created correctly
+To create a standalone EXE file:
+1. Install PyInstaller: `pip install pyinstaller`
+2. Run: `build_exe.bat` (Windows)
+3. EXE will be in `dist/` folder
 
 ## License
 
