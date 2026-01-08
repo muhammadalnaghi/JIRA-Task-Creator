@@ -1,0 +1,17 @@
+Sample Task - Project Setup
+This is a sample parent task for demonstration purposes.
+It shows how to format tasks in the tasks.txt file.
+
+---
+PARENT: PARENT-1
+Sample Subtask - Documentation
+This is a sample subtask that will be automatically linked to the first parent task.
+Use PARENT: PARENT-1 to link to the 1st parent task, PARENT: PARENT-2 for the 2nd, etc.
+
+---
+PARENT: PARENT-1
+Sample Subtask - Testing
+Another sample subtask linked to the first parent task.
+
+---
+
