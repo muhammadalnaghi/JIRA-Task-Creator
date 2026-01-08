@@ -38,8 +38,13 @@ Thumbs.db
 
 # Application specific
 tasks_*.txt
+
+# Build artifacts
 *.exe
 JiraTaskCreator.exe
+dist/
+build/
+*.spec
 
 # Sensitive files (just in case)
 config.ini

@@ -5,12 +5,19 @@ A Python GUI application for creating Jira tasks and subtasks via the REST API. 
 ## Features
 
 - ✅ **GUI Interface**: User-friendly graphical interface
+- ✅ **Standalone EXE**: No Python installation required (Windows)
 - ✅ **Batch Creation**: Create multiple tasks from a text file
 - ✅ **Parent/Subtask Support**: Automatically create and link subtasks to parent tasks
 - ✅ **Auto-linking**: Use `PARENT: PARENT-1` placeholders for automatic subtask linking
 - ✅ **Tasks Preview**: Preview tasks before creating them
 - ✅ **Real-time Logging**: See task creation progress in real-time
 - ✅ **Error Handling**: Detailed error messages for troubleshooting
+
+## Download
+
+**Latest Release**: [Download EXE](https://github.com/muhammadalnaghi/jira-task-creator/releases/latest)
+
+For Windows users, you can download the standalone EXE file - no Python installation needed!
 
 ## Screenshots
 
@@ -21,13 +28,27 @@ The application provides a clean interface for:
 
 ## Installation
 
-### Prerequisites
+### Option 1: Download Standalone EXE (Windows - Recommended)
+
+1. **Download the latest release:**
+   - Go to [Releases](https://github.com/muhammadalnaghi/jira-task-creator/releases/latest)
+   - Download `JiraTaskCreator.exe`
+
+2. **Run the application:**
+   - Double-click `JiraTaskCreator.exe`
+   - No installation or Python required!
+
+3. **Optional**: Place `tasks.txt` in the same folder as the EXE
+
+### Option 2: Run from Source Code
+
+#### Prerequisites
 
 - Python 3.6 or higher
 - tkinter (usually included with Python on Windows/Mac, may need installation on Linux)
 - Jira API token
 
-### Quick Install (Windows)
+#### Quick Install (Windows)
 
 1. **Install Python dependencies:**
    ```bash
